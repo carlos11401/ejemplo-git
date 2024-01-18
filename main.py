@@ -1,4 +1,11 @@
 myvar = "1er variable"
-print(myvar)
 otherVar = "2da variable"
-print(otherVar)
+
+# add new function to print the variables
+def printVariables():
+    print(myvar)
+    print(otherVar) 
+
+# Call the function
+printVariables()
+print("Good bye")
